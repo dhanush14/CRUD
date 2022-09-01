@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/DisEmployee.js" ></script></head>
+<body>
+
+<h2>CRUD Operation</h2>
+
+
+
+<script>
+  var employee={"id":1,"name":"Dhanush","salary":5000};
+   // let myObj = JSON.parse(employee);
+  var employees=[{"id":2,"name":"Dhanush","salary":5000},
+                    {"id":1,"name":"abc","salary":5100},
+                    {"id":3,"name":"xyz","salary":5200}];
+                   // disEmployee();
+   
+</script>
+
+<script src="/AddEmp.js"></script>  
+<p id="dem">Add Emp</p>
+<input type="button" onclick="addEmpn(employees)" value="Add Employee">
+
+<script src="/DisEmployee.js"></script>  
+<p id="demo">Display Employees </p>
+<input type="button" onclick="disEmployee(employees)" value="Display Employees">
+
+<script src="/DisEmps.js"></script>  
+<p id="demo1">Display Employee Object</p>
+<input type="button" onclick="displayEmployyes(employee)" value="Display Employee Object">
+
+<script src="/SortBasedOnId.js"></script>
+<p id="demo2">Sorting Data By id</p>
+<input type="button" onclick="sortByid(employees)" value="SortByID">
+
+<script src="/SortBasedonsalary.js"></script>
+<p id="demo3">Sorting Data By Salary</p>
+<input type="button" onclick="sortBySalary(employees)" value="SortBySalary">
+
+<script src="/GetById.js"></script>
+<p id="demo4">Get Object By id</p>
+<input type="button" onclick="getEmpById(employees,2)" value="Get Object by id">
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
